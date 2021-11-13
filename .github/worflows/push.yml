@@ -2,8 +2,6 @@ name: Deploy de la pagina
 on: 
   push:
     branches: - main
-  pull_request:
-    branches: - main
 
   jobs: 
     deploy-page: 
